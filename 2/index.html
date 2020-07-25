@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="cardss">
+
+    
+    <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <h1>Yearn</h1>
+          </div>
+          <div class="flip-card-back">
+            <h1>Meaning</h1> 
+            <p>desire strongly or persistently</p> 
+          </div>
+        </div>
+      </div>
+    
+    
+    
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <h1>vermillion</h1>
+          </div>
+          <div class="flip-card-back">
+            <h1>Meaning</h1> 
+            <p>of a vivid red to reddish-orange color</p> 
+          </div>
+        </div>
+      </div>  
+    
+
+    <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <h1>serene</h1>
+          </div>
+          <div class="flip-card-back">
+            <h1>Meaning</h1> 
+            <p>not agitated</p> 
+          </div>
+        </div>
+      </div>  
+
+
+    <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <h1>paradigm</h1>
+          </div>
+          <div class="flip-card-back">
+            <h1>Meaning</h1> 
+            <p>a standard or typical example</p> 
+          </div>
+        </div>
+      </div>  
+
+
+    <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <h1>optimistically</h1>
+          </div>
+          <div class="flip-card-back">
+            <h1>Meaning</h1> 
+            <p>with optimism; in an optimistic manner</p> 
+          </div>
+        </div>
+      </div>  
+
+    <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <h1>paradigm</h1>
+          </div>
+          <div class="flip-card-back">
+            <h1>narrative</h1> 
+            <p>an account that tells the particulars of an act or event</p> 
+          </div>
+        </div>
+      </div>  
+    
+
+
+</div>
+<style>
+
+    #cardss{
+        display: flex;
+    }
+    .flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-card-back {
+  background-color: #2980b9;
+  color: white;
+  transform: rotateY(180deg);
+}
+</style>      
+</body>
+</html>
+

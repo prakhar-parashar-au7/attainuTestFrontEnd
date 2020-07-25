@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AboutMe</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+<body>
+
+    <ul>
+        <li><a class="active" href="#home">Home</a></li>
+        <li><a href="#Profile">Profile</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#about">About</a></li>
+      </ul>
+    <h1 id="title">Title</h1>
+    <p id="para">I'm a fullstack developer currently a studying in AttainU. 
+        The skills I'm profiecent in are nodejs, express, Mongodb and react, python.
+        I'm very fond of listening to music and playing video games in my free time. 
+        <p id="link">Please visit <a href="https://www.google.com/">google</a></p>  
+    </p>
+<div id="icons">
+<p>Some Google icons:</p>
+<i class="material-icons">cloud</i>
+<i class="material-icons">favorite</i>
+<i class="material-icons">attachment</i>
+<i class="material-icons">computer</i>
+<i class="material-icons">traffic</i>
+</div>
+
+<img id="image" src="e0df4b15-627b-45ce-bac3-0041ab6fe4f1.jpg">
+
+
+
+
+    <style>
+        ul {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          overflow: hidden;
+          background-color: #333;
+        }
+        
+        li {
+          float: left;
+        }
+        
+        li a {
+          display: block;
+          color: white;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+        }
+        
+        li a:hover {
+          background-color: #111;
+        }
+
+        #para {
+            margin-left: 300px;
+            margin-top: 100px;
+            width: 600px
+        }
+        #title {
+            margin-left : 500px;
+        }
+        #link {
+            margin-left: 500px;
+        }
+        #icons {
+            margin-left: 500px;
+        }
+        #image {
+            height: 400px;
+            margin-left: 400px;
+        }
+
+        @media only screen and (max-width:620px) {
+  /* For mobile phones: */
+  #para, ul  {
+    width:100%;
+  }
+}
+        </style>
+</body>
+</html>
